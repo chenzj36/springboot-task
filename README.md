@@ -1,4 +1,6 @@
-# SpringBoot定时任务，邮件任务，异步任务学习笔记
+# 关于“任务”
+
+---
 
 ### 异步任务
 - @Async--> 异步开启的服务方法上
@@ -55,7 +57,7 @@ public class ScheduledService {
 }
 ```
 - cron   
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1581313142168.png)
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1581313142168.png)
 ### 邮件发送
 - **添加依赖spring-start-mail**
 ```
@@ -74,7 +76,7 @@ spring.mail.host=smtp.126.com
 spring.mail.properties.mail.smtp.ssl.enable=true
 ```
 - **测试发送JavaMailSendImpl  
-![enter description here](http://q5053ip41.bkt.clouddn.com/xsj/1581257111295.png)  
+![enter description here](https://aliyunosschenzj.oss-cn-beijing.aliyuncs.com/aliyunoss/1581257111295.png)  
 - **测试发送MimeMessage  
 ```
 @Test
